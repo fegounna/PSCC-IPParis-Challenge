@@ -1,5 +1,32 @@
-MODEL = os.environ.get("MODEL")
+import os
+import torch
+import monai
+from monai.data import Dataset, DataLoader
+from torch.utils.data import Subset, DataLoader
 
+import torch.nn as nn
+import torch.nn.functional as F
+from torch.optim import lr_scheduler
+
+from sklearn.model_selection import KFold
+
+from monai.losses import DiceLoss
+
+import numpy as np
+from tqdm import tqdm
+import matplotlib.pyplot as plt
+import random
+import copy 
+
+from . import engine
+from . import preprocessing
+from . import dataset
+from . import dispatcher
+from . import metrics
+
+
+MODEL = os.environ.get("MODEL")
+fold = int(os.environ.get("fold"))
 if __name__ == "__main__":
 
     model = dispatcher.MODELS[MODEL]
@@ -9,20 +36,20 @@ if __name__ == "__main__":
         model = nn.DataParallel(model)
     optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
 
-    checkpoint = torch.load(f"models/checkpoint_{MODEL}.pht.tar", map_location='cuda')
+    checkpoint = torch.load(f"models/checkpoint_{MODEL}_{fold}.pht.tar", map_location='cuda')
     model.load_state_dict(checkpoint['state_dict'])
     optimizer.load_state_dict(checkpoint['optimizer'])
 
     num_batches = 1
-    test_files = get_test_files()
-    test_ds = monai.data.Dataset(data=test_files,transform=orig_transforms)
+    test_files = dataset.get_test_files()
+    test_ds = monai.data.Dataset(data=test_files,transform=prepocessing.test_transforms)
     test_ldr = DataLoader(test_ds,batch_size=num_batches)
     tk0 = tqdm(test_ldr, total=num_batches)
 
     model.eval()
 
 
-    save_directory = f'\predictions\{MODEL}'
+    save_directory = f'\predictions\{MODEL}_{fold}'
     if not os.path.exists(save_directory):
         os.makedirs(save_directory)
 
@@ -45,9 +72,3 @@ if __name__ == "__main__":
                 nifti_img.to_filename(path)
         
         tk0.close()
-import sys
-sys.path.append(r'C:\Users\Moakher\PSCC_datachallenge')
-from hackathon.submission_gen import submission_gen
-csvpath = r"C:\Users\Moakher\Desktop\hackaton\output.csv"
-result = submission_gen(save_directory, csvpath)
-print(result)

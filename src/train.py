@@ -24,7 +24,7 @@ from . import dataset
 from . import dispatcher
 from . import metrics
 
-fold = int(os.environ.get('FOLD'))
+fold = int(os.environ.get('fold'))
 MODEL = os.environ.get("MODEL")
 
 

@@ -164,7 +164,6 @@ input/
 models/
 
 #data files
-*.csv
 *.h5
 *.plk
 *.pth
