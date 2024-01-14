@@ -1,0 +1,2 @@
+id,rle,recist,volume,data_shape
+LUNG1-,0,0,0.0,"(256, 256, 128)"

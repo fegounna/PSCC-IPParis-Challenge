@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # SLURM options:
 #SBATCH --partition=IPPMED-A40               # Choice of partition (mandatory)
@@ -11,9 +11,9 @@ export fold=0
 export MODEL="3DUnet"
 
 # Activate Conda environment:
-eval "$(conda shell.bash hook)"
-conda activate myenv
+/home/ext-6401/anaconda3/bin/conda activate myenv
+/home/ext-6401/anaconda3/bin/conda install pandas -y
 
 # Run the Python script:
-python3 -m src.train
+python3 -m src.predict
 

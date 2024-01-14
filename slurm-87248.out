@@ -1,0 +1,13 @@
+/var/spool/slurmd/job87248/slurm_script: line 14: /home/ext-6401/anaconda3/etc/profile.d/conda.sh: No such file or directory
+/var/spool/slurmd/job87248/slurm_script: line 16: conda: command not found
+/var/spool/slurmd/job87248/slurm_script: line 18: conda: command not found
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/ssd/ext-6401/PSCC-IPParis-Challenge/src/predict.py", line 29, in <module>
+    from hackathon.submission_gen import submission_gen
+  File "/home/ssd/ext-6401/PSCC_datachallenge/hackathon/submission_gen.py", line 5, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'

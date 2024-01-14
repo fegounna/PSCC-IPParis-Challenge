@@ -17,14 +17,18 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 import random
 import copy 
-
+import nibabel as nib
 from . import engine
 from . import preprocessing
 from . import dataset
 from . import dispatcher
 from . import metrics
 
+import sys
+sys.path.append("/home/ssd/ext-6401/PSCC_datachallenge")
+from hackathon.submission_gen import submission_gen
 
+device = "cuda"
 MODEL = os.environ.get("MODEL")
 fold = int(os.environ.get("fold"))
 if __name__ == "__main__":
@@ -42,7 +46,7 @@ if __name__ == "__main__":
 
     num_batches = 1
     test_files = dataset.get_test_files()
-    test_ds = monai.data.Dataset(data=test_files,transform=prepocessing.test_transforms)
+    test_ds = monai.data.Dataset(data=test_files,transform=preprocessing.test_transforms)
     test_ldr = DataLoader(test_ds,batch_size=num_batches)
     tk0 = tqdm(test_ldr, total=num_batches)
 
@@ -72,3 +76,6 @@ if __name__ == "__main__":
                 nifti_img.to_filename(path)
         
         tk0.close()
+csvpath = f'/home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/{MODEL}_{fold}/output.csv'
+result = submission_gen(save_directory, csvpath)
+print(result)
