@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
 # C extensions
 *.so
 
@@ -169,3 +170,4 @@ models/
 *.plk
 *.pth
 *.nii
+Anaconda3-2022.10-Linux-x86_64.sh 
