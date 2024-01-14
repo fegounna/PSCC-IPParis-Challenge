@@ -164,6 +164,7 @@ input/
 models/
 
 #data files
+*.nii.gz
 *.h5
 *.plk
 *.pth
