@@ -25,7 +25,7 @@ def train(dataset, data_loader, model, criterion, optimizer):
         optimizer.step()
     tk0.close()
 
-def evaluate(dataset, data_loader, model):
+def evaluate(dataset, data_loader, model, criterion):
     model.eval()
 
     final_loss = 0.

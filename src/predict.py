@@ -36,7 +36,7 @@ if __name__ == "__main__":
         model = nn.DataParallel(model)
     optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
 
-    checkpoint = torch.load(f"models/checkpoint_{MODEL}_{fold}.pht.tar", map_location='cuda')
+    checkpoint = torch.load(f"/home/ssd/ext-6401/PSCC-IPParis-Challenge/models/checkpoint_{MODEL}_{fold}.pht.tar", map_location='cuda')
     model.load_state_dict(checkpoint['state_dict'])
     optimizer.load_state_dict(checkpoint['optimizer'])
 
@@ -49,7 +49,7 @@ if __name__ == "__main__":
     model.eval()
 
 
-    save_directory = f'\predictions\{MODEL}_{fold}'
+    save_directory = f'/home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/{MODEL}_{fold}'
     if not os.path.exists(save_directory):
         os.makedirs(save_directory)
 

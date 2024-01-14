@@ -81,7 +81,7 @@ if __name__ == "__main__":
         print(f"Training Epoch: {epoch+1} / {epochs}, Fold: {fold}")
         engine.train(train_dataset, train_loader, model, criterion, optimizer)
         print(f"Validation Epoch: {epoch+1} / {epochs}, Fold: {fold}")
-        val_loss = engine.evaluate(val_dataset, val_loader, model)
+        val_loss = engine.evaluate(val_dataset, val_loader, model,criterion)
         print(f"Epoch={epoch+1}, Fold={fold}, Loss={val_loss}")
 
         if best_loss == None or best_loss >= val_loss:
@@ -95,7 +95,7 @@ if __name__ == "__main__":
             if counter >= patience:
                 print(f"Early stopping triggered after {counter} epochs.")
                 checkpoint = {"state_dict":best_model,"optimizer":best_optimizer}
-                torch.save(checkpoint,f"models/checkpoint_{MODEL}_{fold}.pht.tar")
+                torch.save(checkpoint,f"/home/ssd/ext-6401/PSCC-IPParis-Challenge/models/checkpoint_{MODEL}_{fold}.pht.tar")
                # print(f"End of fold{fold} with scores {metrics.metric_score(val_dataset, val_loader, model)}")
                 break
         scheduler.step(val_loss)
