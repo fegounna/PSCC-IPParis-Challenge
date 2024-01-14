@@ -22,7 +22,21 @@ from . import engine
 from . import preprocessing
 from . import dataset
 from . import dispatcher
-from . import metrics
+#from . import metrics
+
+
+seed = 42
+torch.manual_seed(seed)
+np.random.seed(seed)
+monai.utils.set_determinism(seed=seed)
+
+if torch.cuda.is_available():
+    torch.cuda.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)  # for multi-GPU
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+
+
 
 fold = int(os.environ.get('fold'))
 MODEL = os.environ.get("MODEL")
@@ -82,7 +96,7 @@ if __name__ == "__main__":
                 print(f"Early stopping triggered after {counter} epochs.")
                 checkpoint = {"state_dict":best_model,"optimizer":best_optimizer}
                 torch.save(checkpoint,f"models/checkpoint_{MODEL}_{fold}.pht.tar")
-                print(f"End of fold{fold} with scores {metrics.metric_score(val_dataset, val_loader, model)}")
+               # print(f"End of fold{fold} with scores {metrics.metric_score(val_dataset, val_loader, model)}")
                 break
         scheduler.step(val_loss)
     #calculate the metrics
