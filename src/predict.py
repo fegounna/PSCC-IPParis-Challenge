@@ -50,6 +50,7 @@ if __name__ == "__main__":
     test_ldr = DataLoader(test_ds,batch_size=batch_size)
     print("Number of test files:", len(test_files),flush=True)
     print("Number of batches in test_ldr:", len(test_ldr),flush=True)
+    print(test_files,flush=True)
     
     tk0 = tqdm(test_ldr, total=len(test_files))
 
@@ -64,7 +65,7 @@ if __name__ == "__main__":
         for data in tk0:
             inputs = data["image"]
             inputs = inputs.to(device, dtype=torch.float)
-            print(inputs.shape)
+            print(inputs.shape,flush=True)
             output = model(inputs)
 
             for prediction,id in zip(output,data["id"]):
@@ -73,14 +74,14 @@ if __name__ == "__main__":
                 threshold_value = 0.5
                 thresholded_output = output_np > threshold_value
                 thresholded_output = thresholded_output.astype(np.uint8)
-                print(thresholded_output.shape)
+                print(thresholded_output.shape,flush=True)
                 voxel_size = [0.9765625, 0.9765625, 3.0]
                 affine = np.diag(voxel_size + [1])
                 nifti_img = nib.Nifti1Image(thresholded_output, affine)
                 path = os.path.join(save_directory, f"""{id}.nii.gz""")
                 nifti_img.to_filename(path)
-                print("cbon")
-        tk0.close()
+                print("cbon",flush=True)
+    tk0.close()
 csvpath = f'/home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/{MODEL}_{fold}/output.csv'
 result = submission_gen(save_directory, csvpath)
 print(result)
