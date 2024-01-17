@@ -1,0 +1,408 @@
+/var/spool/slurmd/job88800/slurm_script: line 14: /home/ext-6401/anaconda3/bin/conda: No such file or directory
+/var/spool/slurmd/job88800/slurm_script: line 15: /home/ext-6401/anaconda3/bin/conda: No such file or directory
+Let's use 2 GPUs!
+Number of test files: 100
+Number of batches in test_ldr: 100
+[{'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-079_vol.nii.gz', 'id': 'LUNG1-079'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-097_vol.nii.gz', 'id': 'LUNG1-097'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-044_vol.nii.gz', 'id': 'LUNG1-044'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-021_vol.nii.gz', 'id': 'LUNG1-021'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-047_vol.nii.gz', 'id': 'LUNG1-047'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-096_vol.nii.gz', 'id': 'LUNG1-096'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-029_vol.nii.gz', 'id': 'LUNG1-029'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-064_vol.nii.gz', 'id': 'LUNG1-064'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-068_vol.nii.gz', 'id': 'LUNG1-068'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-055_vol.nii.gz', 'id': 'LUNG1-055'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-089_vol.nii.gz', 'id': 'LUNG1-089'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-074_vol.nii.gz', 'id': 'LUNG1-074'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-057_vol.nii.gz', 'id': 'LUNG1-057'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-015_vol.nii.gz', 'id': 'LUNG1-015'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-037_vol.nii.gz', 'id': 'LUNG1-037'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-082_vol.nii.gz', 'id': 'LUNG1-082'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-017_vol.nii.gz', 'id': 'LUNG1-017'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-095_vol.nii.gz', 'id': 'LUNG1-095'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-030_vol.nii.gz', 'id': 'LUNG1-030'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-006_vol.nii.gz', 'id': 'LUNG1-006'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-072_vol.nii.gz', 'id': 'LUNG1-072'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-085_vol.nii.gz', 'id': 'LUNG1-085'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-071_vol.nii.gz', 'id': 'LUNG1-071'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-022_vol.nii.gz', 'id': 'LUNG1-022'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-060_vol.nii.gz', 'id': 'LUNG1-060'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-020_vol.nii.gz', 'id': 'LUNG1-020'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-027_vol.nii.gz', 'id': 'LUNG1-027'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-018_vol.nii.gz', 'id': 'LUNG1-018'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-005_vol.nii.gz', 'id': 'LUNG1-005'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-039_vol.nii.gz', 'id': 'LUNG1-039'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-099_vol.nii.gz', 'id': 'LUNG1-099'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-091_vol.nii.gz', 'id': 'LUNG1-091'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-009_vol.nii.gz', 'id': 'LUNG1-009'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-032_vol.nii.gz', 'id': 'LUNG1-032'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-067_vol.nii.gz', 'id': 'LUNG1-067'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-081_vol.nii.gz', 'id': 'LUNG1-081'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-065_vol.nii.gz', 'id': 'LUNG1-065'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-035_vol.nii.gz', 'id': 'LUNG1-035'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-049_vol.nii.gz', 'id': 'LUNG1-049'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-013_vol.nii.gz', 'id': 'LUNG1-013'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-083_vol.nii.gz', 'id': 'LUNG1-083'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-048_vol.nii.gz', 'id': 'LUNG1-048'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-038_vol.nii.gz', 'id': 'LUNG1-038'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-033_vol.nii.gz', 'id': 'LUNG1-033'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-059_vol.nii.gz', 'id': 'LUNG1-059'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-023_vol.nii.gz', 'id': 'LUNG1-023'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-073_vol.nii.gz', 'id': 'LUNG1-073'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-025_vol.nii.gz', 'id': 'LUNG1-025'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-094_vol.nii.gz', 'id': 'LUNG1-094'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-098_vol.nii.gz', 'id': 'LUNG1-098'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-040_vol.nii.gz', 'id': 'LUNG1-040'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-092_vol.nii.gz', 'id': 'LUNG1-092'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-058_vol.nii.gz', 'id': 'LUNG1-058'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-075_vol.nii.gz', 'id': 'LUNG1-075'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-034_vol.nii.gz', 'id': 'LUNG1-034'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-046_vol.nii.gz', 'id': 'LUNG1-046'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-070_vol.nii.gz', 'id': 'LUNG1-070'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-002_vol.nii.gz', 'id': 'LUNG1-002'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-041_vol.nii.gz', 'id': 'LUNG1-041'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-012_vol.nii.gz', 'id': 'LUNG1-012'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-028_vol.nii.gz', 'id': 'LUNG1-028'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-069_vol.nii.gz', 'id': 'LUNG1-069'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-093_vol.nii.gz', 'id': 'LUNG1-093'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-084_vol.nii.gz', 'id': 'LUNG1-084'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-056_vol.nii.gz', 'id': 'LUNG1-056'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-026_vol.nii.gz', 'id': 'LUNG1-026'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-100_vol.nii.gz', 'id': 'LUNG1-100'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-077_vol.nii.gz', 'id': 'LUNG1-077'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-014_vol.nii.gz', 'id': 'LUNG1-014'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-061_vol.nii.gz', 'id': 'LUNG1-061'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-007_vol.nii.gz', 'id': 'LUNG1-007'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-090_vol.nii.gz', 'id': 'LUNG1-090'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-019_vol.nii.gz', 'id': 'LUNG1-019'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-043_vol.nii.gz', 'id': 'LUNG1-043'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-001_vol.nii.gz', 'id': 'LUNG1-001'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-031_vol.nii.gz', 'id': 'LUNG1-031'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-053_vol.nii.gz', 'id': 'LUNG1-053'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-008_vol.nii.gz', 'id': 'LUNG1-008'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-016_vol.nii.gz', 'id': 'LUNG1-016'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-042_vol.nii.gz', 'id': 'LUNG1-042'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-062_vol.nii.gz', 'id': 'LUNG1-062'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-011_vol.nii.gz', 'id': 'LUNG1-011'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-052_vol.nii.gz', 'id': 'LUNG1-052'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-087_vol.nii.gz', 'id': 'LUNG1-087'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-080_vol.nii.gz', 'id': 'LUNG1-080'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-066_vol.nii.gz', 'id': 'LUNG1-066'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-050_vol.nii.gz', 'id': 'LUNG1-050'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-004_vol.nii.gz', 'id': 'LUNG1-004'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-051_vol.nii.gz', 'id': 'LUNG1-051'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-078_vol.nii.gz', 'id': 'LUNG1-078'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-010_vol.nii.gz', 'id': 'LUNG1-010'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-024_vol.nii.gz', 'id': 'LUNG1-024'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-063_vol.nii.gz', 'id': 'LUNG1-063'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-003_vol.nii.gz', 'id': 'LUNG1-003'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-076_vol.nii.gz', 'id': 'LUNG1-076'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-088_vol.nii.gz', 'id': 'LUNG1-088'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-054_vol.nii.gz', 'id': 'LUNG1-054'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-036_vol.nii.gz', 'id': 'LUNG1-036'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-045_vol.nii.gz', 'id': 'LUNG1-045'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-086_vol.nii.gz', 'id': 'LUNG1-086'}]
+  0%|          | 0/100 [00:00<?, ?it/s]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+  1%|          | 1/100 [00:03<05:02,  3.05s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+  2%|▏         | 2/100 [00:05<03:55,  2.41s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+  3%|▎         | 3/100 [00:06<03:22,  2.09s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+  4%|▍         | 4/100 [00:11<04:47,  3.00s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+  5%|▌         | 5/100 [00:13<04:28,  2.82s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+  6%|▌         | 6/100 [00:15<04:01,  2.57s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+  7%|▋         | 7/100 [00:17<03:39,  2.36s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+  8%|▊         | 8/100 [00:19<03:35,  2.34s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+  9%|▉         | 9/100 [00:22<03:30,  2.31s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 10%|█         | 10/100 [00:24<03:26,  2.29s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 11%|█         | 11/100 [00:26<03:15,  2.20s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 12%|█▏        | 12/100 [00:28<03:13,  2.20s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 13%|█▎        | 13/100 [00:30<03:16,  2.26s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 14%|█▍        | 14/100 [00:33<03:31,  2.45s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 15%|█▌        | 15/100 [00:35<03:15,  2.30s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 16%|█▌        | 16/100 [00:37<03:07,  2.23s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 17%|█▋        | 17/100 [00:39<02:56,  2.12s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 18%|█▊        | 18/100 [00:41<02:54,  2.13s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 19%|█▉        | 19/100 [00:43<02:49,  2.09s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 20%|██        | 20/100 [00:45<02:44,  2.06s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 21%|██        | 21/100 [00:48<02:47,  2.12s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 22%|██▏       | 22/100 [00:50<02:44,  2.11s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 23%|██▎       | 23/100 [00:52<02:45,  2.14s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 24%|██▍       | 24/100 [00:55<02:59,  2.37s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 25%|██▌       | 25/100 [00:57<02:54,  2.33s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 26%|██▌       | 26/100 [00:59<02:41,  2.19s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 27%|██▋       | 27/100 [01:01<02:30,  2.07s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 28%|██▊       | 28/100 [01:03<02:22,  1.98s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 29%|██▉       | 29/100 [01:05<02:27,  2.07s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 30%|███       | 30/100 [01:07<02:18,  1.98s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 31%|███       | 31/100 [01:09<02:18,  2.00s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 32%|███▏      | 32/100 [01:11<02:16,  2.01s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 33%|███▎      | 33/100 [01:12<02:09,  1.94s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 34%|███▍      | 34/100 [01:14<02:09,  1.97s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 35%|███▌      | 35/100 [01:17<02:11,  2.03s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 36%|███▌      | 36/100 [01:19<02:08,  2.01s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 37%|███▋      | 37/100 [01:21<02:13,  2.11s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 38%|███▊      | 38/100 [01:23<02:05,  2.03s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 39%|███▉      | 39/100 [01:25<01:59,  1.95s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 40%|████      | 40/100 [01:26<01:51,  1.86s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 41%|████      | 41/100 [01:28<01:54,  1.94s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 42%|████▏     | 42/100 [01:30<01:47,  1.85s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 43%|████▎     | 43/100 [01:32<01:45,  1.85s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 44%|████▍     | 44/100 [01:34<01:45,  1.88s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 45%|████▌     | 45/100 [01:36<01:51,  2.03s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 46%|████▌     | 46/100 [01:39<02:10,  2.41s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 47%|████▋     | 47/100 [01:42<02:05,  2.37s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 48%|████▊     | 48/100 [01:43<01:50,  2.12s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 49%|████▉     | 49/100 [01:45<01:46,  2.08s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 50%|█████     | 50/100 [01:47<01:41,  2.04s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 51%|█████     | 51/100 [01:49<01:35,  1.96s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 52%|█████▏    | 52/100 [01:51<01:36,  2.01s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 53%|█████▎    | 53/100 [01:53<01:37,  2.06s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 54%|█████▍    | 54/100 [01:55<01:33,  2.04s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 55%|█████▌    | 55/100 [01:57<01:32,  2.06s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 56%|█████▌    | 56/100 [01:59<01:28,  2.00s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 57%|█████▋    | 57/100 [02:01<01:27,  2.03s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 58%|█████▊    | 58/100 [02:04<01:28,  2.11s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 59%|█████▉    | 59/100 [02:06<01:25,  2.08s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 60%|██████    | 60/100 [02:08<01:22,  2.07s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 61%|██████    | 61/100 [02:10<01:20,  2.05s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 62%|██████▏   | 62/100 [02:12<01:20,  2.11s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 63%|██████▎   | 63/100 [02:14<01:16,  2.08s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 64%|██████▍   | 64/100 [02:16<01:14,  2.07s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 65%|██████▌   | 65/100 [02:18<01:14,  2.13s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 66%|██████▌   | 66/100 [02:20<01:10,  2.09s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 67%|██████▋   | 67/100 [02:22<01:08,  2.07s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 68%|██████▊   | 68/100 [02:25<01:08,  2.13s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 69%|██████▉   | 69/100 [02:26<01:02,  2.02s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 70%|███████   | 70/100 [02:29<01:03,  2.11s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 71%|███████   | 71/100 [02:30<00:57,  1.98s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 72%|███████▏  | 72/100 [02:32<00:54,  1.93s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 73%|███████▎  | 73/100 [02:35<01:00,  2.22s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 74%|███████▍  | 74/100 [02:37<00:57,  2.20s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 75%|███████▌  | 75/100 [02:39<00:53,  2.13s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 76%|███████▌  | 76/100 [02:41<00:48,  2.04s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 77%|███████▋  | 77/100 [02:43<00:45,  1.98s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 78%|███████▊  | 78/100 [02:44<00:41,  1.87s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 79%|███████▉  | 79/100 [02:47<00:40,  1.93s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 80%|████████  | 80/100 [02:48<00:36,  1.82s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 81%|████████  | 81/100 [02:50<00:34,  1.82s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 82%|████████▏ | 82/100 [02:52<00:35,  1.95s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 83%|████████▎ | 83/100 [02:54<00:32,  1.94s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 84%|████████▍ | 84/100 [02:56<00:31,  1.98s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 85%|████████▌ | 85/100 [02:58<00:31,  2.09s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 86%|████████▌ | 86/100 [03:01<00:30,  2.18s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 87%|████████▋ | 87/100 [03:03<00:28,  2.22s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 88%|████████▊ | 88/100 [03:05<00:25,  2.11s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 89%|████████▉ | 89/100 [03:07<00:22,  2.06s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 90%|█████████ | 90/100 [03:09<00:21,  2.14s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 91%|█████████ | 91/100 [03:11<00:19,  2.14s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 92%|█████████▏| 92/100 [03:13<00:16,  2.09s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 93%|█████████▎| 93/100 [03:16<00:15,  2.17s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 94%|█████████▍| 94/100 [03:18<00:12,  2.09s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 95%|█████████▌| 95/100 [03:20<00:10,  2.15s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 96%|█████████▌| 96/100 [03:22<00:08,  2.11s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 97%|█████████▋| 97/100 [03:24<00:06,  2.01s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 98%|█████████▊| 98/100 [03:26<00:03,  1.96s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+ 99%|█████████▉| 99/100 [03:27<00:01,  1.92s/it]torch.Size([1, 1, 256, 256, 128])
+(256, 256, 128)
+cbon
+100%|██████████| 100/100 [03:29<00:00,  1.96s/it]100%|██████████| 100/100 [03:29<00:00,  2.10s/it]
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-001.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-002.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-003.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-004.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-005.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-006.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-007.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-008.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-009.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-010.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-011.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-012.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-013.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-014.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-015.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-016.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-017.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-018.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-019.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-020.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-021.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-022.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-023.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-024.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-025.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-026.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-027.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-028.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-029.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-030.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-031.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-032.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-033.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-034.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-035.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-036.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-037.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-038.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-039.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-040.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-041.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-042.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-043.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-044.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-045.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-046.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-047.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-048.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-049.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-050.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-051.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-052.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-053.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-054.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-055.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-056.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-057.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-058.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-059.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-060.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-061.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-062.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-063.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-064.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-065.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-066.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-067.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-068.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-069.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-070.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-071.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-072.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-073.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-074.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-075.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-076.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-077.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-078.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-079.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-080.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-081.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-082.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-083.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-084.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-085.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-086.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-087.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-088.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-089.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-090.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-091.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-092.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-093.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-094.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-095.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-096.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-097.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-098.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-099.nii.gz...
+Encoding /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/LUNG1-100.nii.gz...
+submission file saved at /home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/3DUnet_0/output.csv

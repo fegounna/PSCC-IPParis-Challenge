@@ -22,5 +22,5 @@ def get_test_files():
         image_name = os.path.basename(image_vol_path)
         image_id = image_name.split('.')[0]
 
-        test_files.append({"image":image_vol_path,"id":image_id[:-7]})
+        test_files.append({"image":image_vol_path,"id":image_id[:-4]})
     return test_files
