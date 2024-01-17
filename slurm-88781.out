@@ -1,6 +1,0 @@
-/var/spool/slurmd/job88781/slurm_script: line 14: /home/ext-6401/anaconda3/bin/conda: No such file or directory
-/var/spool/slurmd/job88781/slurm_script: line 15: /home/ext-6401/anaconda3/bin/conda: No such file or directory
-Let's use 2 GPUs!
-Number of test files: 100
-Number of batches in test_ldr: 100
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:03<00:00,  3.09s/it]2it [00:04,  2.34s/it]                       3it [00:06,  2.03s/it]4it [00:10,  2.96s/it]5it [00:13,  2.77s/it]6it [00:15,  2.56s/it]7it [00:17,  2.36s/it]8it [00:19,  2.33s/it]9it [00:21,  2.29s/it]10it [00:24,  2.29s/it]11it [00:26,  2.21s/it]12it [00:28,  2.21s/it]13it [00:30,  2.25s/it]14it [00:33,  2.43s/it]15it [00:35,  2.27s/it]16it [00:37,  2.20s/it]17it [00:39,  2.11s/it]18it [00:41,  2.10s/it]19it [00:43,  2.07s/it]20it [00:45,  2.08s/it]21it [00:47,  2.12s/it]22it [00:49,  2.09s/it]23it [00:52,  2.15s/it]24it [00:55,  2.37s/it]25it [00:57,  2.31s/it]slurmstepd-node25: error: *** JOB 88781 ON node25 CANCELLED AT 2024-01-17T20:52:19 DUE TO TIME LIMIT ***
