@@ -57,7 +57,7 @@ if __name__ == "__main__":
     model.eval()
 
 
-    save_directory = f'/home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/{MODEL}_{fold}'
+    save_directory = f'/home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/{MODEL}_{fold}bis'
     if not os.path.exists(save_directory):
         os.makedirs(save_directory)
 
@@ -71,7 +71,7 @@ if __name__ == "__main__":
             for prediction,id in zip(output,data["id"]):
                 prediction = prediction[0]
                 output_np = prediction.cpu().detach().numpy()
-                threshold_value = 0.5
+                threshold_value = 0.2
                 thresholded_output = output_np > threshold_value
                 thresholded_output = thresholded_output.astype(np.uint8)
                 print(thresholded_output.shape,flush=True)
@@ -82,6 +82,6 @@ if __name__ == "__main__":
                 nifti_img.to_filename(path)
                 print("cbon",flush=True)
     tk0.close()
-csvpath = f'/home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/{MODEL}_{fold}/output.csv'
+csvpath = f'/home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/{MODEL}_{fold}.csv'
 result = submission_gen(save_directory, csvpath)
 print(result)
