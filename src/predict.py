@@ -48,6 +48,9 @@ if __name__ == "__main__":
     test_files = dataset.get_test_files()
     test_ds = monai.data.Dataset(data=test_files,transform=preprocessing.test_transforms)
     test_ldr = DataLoader(test_ds,batch_size=num_batches)
+    print("Number of test files:", len(test_files),flush=True)
+    print("Number of batches in test_ldr:", len(test_ldr),flush=True)
+    
     tk0 = tqdm(test_ldr, total=num_batches)
 
     model.eval()
