@@ -1,88 +1,0 @@
-/var/spool/slurmd/job88778/slurm_script: line 14: /home/ext-6401/anaconda3/bin/conda: No such file or directory
-/var/spool/slurmd/job88778/slurm_script: line 15: /home/ext-6401/anaconda3/bin/conda: No such file or directory
-Let's use 2 GPUs!
-  0%|          | 0/1 [00:00<?, ?it/s]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-100%|██████████| 1/1 [00:02<00:00,  2.93s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-2it [00:04,  2.28s/it]                       torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-3it [00:06,  1.99s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-4it [00:10,  2.94s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-5it [00:13,  2.77s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-6it [00:15,  2.58s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-7it [00:17,  2.37s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-8it [00:19,  2.33s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-9it [00:21,  2.32s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-10it [00:24,  2.32s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-11it [00:26,  2.22s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-12it [00:28,  2.21s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-13it [00:30,  2.25s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-14it [00:33,  2.48s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-15it [00:35,  2.28s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-16it [00:37,  2.21s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-17it [00:39,  2.13s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-18it [00:41,  2.10s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-19it [00:43,  2.08s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-20it [00:45,  2.06s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-21it [00:48,  2.15s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-22it [00:50,  2.12s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-23it [00:52,  2.17s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-24it [00:55,  2.36s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-25it [00:57,  2.33s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-26it [00:59,  2.16s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-27it [01:01,  2.05s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-28it [01:02,  1.99s/it]slurmstepd-node25: error: *** JOB 88778 ON node25 CANCELLED AT 2024-01-17T20:48:19 DUE TO TIME LIMIT ***
