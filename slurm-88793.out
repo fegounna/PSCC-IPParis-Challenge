@@ -1,118 +1,0 @@
-/var/spool/slurmd/job88793/slurm_script: line 14: /home/ext-6401/anaconda3/bin/conda: No such file or directory
-/var/spool/slurmd/job88793/slurm_script: line 15: /home/ext-6401/anaconda3/bin/conda: No such file or directory
-Let's use 2 GPUs!
-Number of test files: 100
-Number of batches in test_ldr: 100
-[{'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-079_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-097_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-044_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-021_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-047_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-096_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-029_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-064_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-068_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-055_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-089_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-074_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-057_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-015_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-037_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-082_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-017_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-095_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-030_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-006_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-072_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-085_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-071_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-022_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-060_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-020_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-027_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-018_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-005_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-039_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-099_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-091_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-009_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-032_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-067_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-081_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-065_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-035_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-049_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-013_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-083_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-048_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-038_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-033_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-059_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-023_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-073_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-025_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-094_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-098_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-040_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-092_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-058_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-075_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-034_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-046_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-070_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-002_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-041_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-012_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-028_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-069_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-093_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-084_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-056_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-026_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-100_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-077_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-014_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-061_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-007_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-090_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-019_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-043_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-001_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-031_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-053_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-008_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-016_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-042_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-062_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-011_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-052_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-087_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-080_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-066_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-050_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-004_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-051_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-078_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-010_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-024_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-063_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-003_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-076_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-088_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-054_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-036_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-045_vol.nii.gz', 'id': 'LUNG1-'}, {'image': '/tsi/data_education/data_challenge/test/volume/LUNG1-086_vol.nii.gz', 'id': 'LUNG1-'}]
-  0%|          | 0/100 [00:00<?, ?it/s]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-  1%|          | 1/100 [00:02<04:56,  3.00s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-  2%|▏         | 2/100 [00:04<03:46,  2.31s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-  3%|▎         | 3/100 [00:06<03:13,  1.99s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-  4%|▍         | 4/100 [00:10<04:41,  2.93s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-  5%|▌         | 5/100 [00:13<04:22,  2.76s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-  6%|▌         | 6/100 [00:15<03:59,  2.55s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-  7%|▋         | 7/100 [00:17<03:38,  2.35s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-  8%|▊         | 8/100 [00:19<03:34,  2.33s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
-  9%|▉         | 9/100 [00:21<03:28,  2.29s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 10%|█         | 10/100 [00:24<03:27,  2.31s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 11%|█         | 11/100 [00:26<03:18,  2.23s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 12%|█▏        | 12/100 [00:28<03:15,  2.22s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 13%|█▎        | 13/100 [00:30<03:16,  2.25s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 14%|█▍        | 14/100 [00:33<03:33,  2.48s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 15%|█▌        | 15/100 [00:35<03:14,  2.29s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 16%|█▌        | 16/100 [00:37<03:04,  2.20s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 17%|█▋        | 17/100 [00:39<02:55,  2.12s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 18%|█▊        | 18/100 [00:41<02:52,  2.10s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 19%|█▉        | 19/100 [00:43<02:48,  2.07s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 20%|██        | 20/100 [00:45<02:44,  2.05s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 21%|██        | 21/100 [00:47<02:47,  2.12s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 22%|██▏       | 22/100 [00:49<02:42,  2.09s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 23%|██▎       | 23/100 [00:52<02:45,  2.14s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 24%|██▍       | 24/100 [00:55<02:59,  2.36s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 25%|██▌       | 25/100 [00:57<02:54,  2.33s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 26%|██▌       | 26/100 [00:59<02:40,  2.17s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 27%|██▋       | 27/100 [01:00<02:30,  2.06s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 28%|██▊       | 28/100 [01:02<02:24,  2.01s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 29%|██▉       | 29/100 [01:05<02:28,  2.10s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 30%|███       | 30/100 [01:06<02:19,  2.00s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 31%|███       | 31/100 [01:08<02:20,  2.04s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 32%|███▏      | 32/100 [01:11<02:19,  2.05s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 33%|███▎      | 33/100 [01:12<02:11,  1.96s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 34%|███▍      | 34/100 [01:14<02:10,  1.97s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 35%|███▌      | 35/100 [01:17<02:12,  2.04s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 36%|███▌      | 36/100 [01:18<02:08,  2.01s/it]torch.Size([1, 1, 256, 256, 128])
-(256, 256, 128)
-cbon
- 37%|███▋      | 37/100 [01:21<02:12,  2.10s/it]slurmstepd-node25: error: *** JOB 88793 ON node25 CANCELLED AT 2024-01-17T21:32:19 DUE TO TIME LIMIT ***
