@@ -44,14 +44,14 @@ if __name__ == "__main__":
     model.load_state_dict(checkpoint['state_dict'])
     optimizer.load_state_dict(checkpoint['optimizer'])
 
-    num_batches = 1
+    batch_size = 1
     test_files = dataset.get_test_files()
     test_ds = monai.data.Dataset(data=test_files,transform=preprocessing.test_transforms)
-    test_ldr = DataLoader(test_ds,batch_size=num_batches)
+    test_ldr = DataLoader(test_ds,batch_size=batch_size)
     print("Number of test files:", len(test_files),flush=True)
     print("Number of batches in test_ldr:", len(test_ldr),flush=True)
     
-    tk0 = tqdm(test_ldr, total=num_batches)
+    tk0 = tqdm(test_ldr, total=len(test_files))
 
     model.eval()
 
