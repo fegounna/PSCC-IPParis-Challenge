@@ -61,6 +61,7 @@ if __name__ == "__main__":
         for data in tk0:
             inputs = data["image"]
             inputs = inputs.to(device, dtype=torch.float)
+            print(inputs.shape)
             output = model(inputs)
 
             for prediction,id in zip(output,data["id"]):
@@ -69,12 +70,13 @@ if __name__ == "__main__":
                 threshold_value = 0.5
                 thresholded_output = output_np > threshold_value
                 thresholded_output = thresholded_output.astype(np.uint8)
+                print(thresholded_output.shape)
                 voxel_size = [0.9765625, 0.9765625, 3.0]
                 affine = np.diag(voxel_size + [1])
                 nifti_img = nib.Nifti1Image(thresholded_output, affine)
                 path = os.path.join(save_directory, f"""{id}.nii.gz""")
                 nifti_img.to_filename(path)
-        
+                print("cbon")
         tk0.close()
 csvpath = f'/home/ssd/ext-6401/PSCC-IPParis-Challenge/predictions/{MODEL}_{fold}/output.csv'
 result = submission_gen(save_directory, csvpath)
